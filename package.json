@@ -4,5 +4,12 @@
 	"private": true,
 	"description": "Detect and download the video playing on a page.",
 	"license": "MIT",
-	"type": "module"
+	"type": "module",
+	"scripts": {
+		"lint": "biome check",
+		"lint:fix": "biome check --write"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.0.0"
+	}
 }
